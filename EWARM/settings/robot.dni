@@ -13,7 +13,7 @@ CStepIntDis=_ 0
 stlinkserialNo=7EC57775
 stlinkfoundProbes=
 [DebugChecksum]
-Checksum=-789804946
+Checksum=1946142373
 [Exceptions]
 StopOnUncaught=_ 0
 StopOnThrow=_ 0
@@ -100,7 +100,13 @@ ShowTiming=1
 [Disassemble mode]
 mode=0
 [Breakpoints2]
-Count=0
+Bp0=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\drivers\core.cpp}.254.9" 0 0 1 "" 0 "" 0
+Bp1=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\drivers\core.cpp}.153.14" 0 0 1 "" 0 "" 0
+Bp2=_ 0 "EMUL_CODE" "{$PROJ_DIR$\..\src\drivers\core.cpp}.247.9" 0 0 1 "" 0 "" 0
+Bp3=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\app\rbt_system.cpp}.49.2" 0 0 1 "" 0 "" 0
+Bp4=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\app\rbt_system.cpp}.48.2" 0 0 1 "" 0 "" 0
+Bp5=_ 1 "EMUL_CODE" "{$PROJ_DIR$\..\src\drivers\i2c.cpp}.207.4" 0 0 1 "" 0 "" 0
+Count=6
 [Aliases]
 Count=0
 SuppressDialog=0

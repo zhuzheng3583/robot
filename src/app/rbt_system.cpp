@@ -10,9 +10,7 @@
 **
 ***********************************************************************/
 #include "rbt_system.h"
-
 //#include "bootloader.h"
-
 #include "main.h"
 
 
@@ -40,9 +38,16 @@ s32 rbt_system::init(enum rbt_system_mode mode)
 
 s32 rbt_system::init(void)
 {
-	demo_main();
-        
+	//demo_main();
+
 	s32 ret = 0;
+	ret = core::init();
+	//core::self_test();
+
+	_i2c1 = new i2c("i2c-1", 1);
+	_i2c1->probe();
+	_i2c1->self_test();
+
 
 	if(ret < 0) {
 		INF("failed to rbt_system::init");

@@ -12,12 +12,14 @@
 #include "robot_type.h"
 #include "robot_misc.h"
 
-//#include "drivers/device.h"
-//#include "drivers/core.h"
+#include "drivers/device.h"
+#include "drivers/core.h"
+#include "drivers/i2c.h"
+
 //#include "drivers/flash.h"
 //#include "drivers/uart/uart.h"
 
-//using namespace driver;
+using namespace driver;
 
 namespace app {
 
@@ -39,8 +41,9 @@ public:
     };
 
 public:
-    enum rbt_system_mode _mode;
-    //uart          	*_puart1;
+    enum rbt_system_mode	_mode;
+    //uart          		*_puart1;
+    i2c                		*_i2c1;
 
 public:
     enum rbt_system_mode    get_mode(void)		{ return _mode; }
