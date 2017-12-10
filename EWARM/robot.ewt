@@ -3141,6 +3141,9 @@
     </settings>
   </configuration>
   <group>
+    <name>algo</name>
+  </group>
+  <group>
     <name>app</name>
     <group>
       <name>user</name>

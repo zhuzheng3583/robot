@@ -317,6 +317,7 @@
         <option>
           <name>CCIncludePath2</name>
           <state>$PROJ_DIR$\..\src</state>
+          <state>$PROJ_DIR$\..\src\algo</state>
           <state>$PROJ_DIR$\..\src\app</state>
           <state>$PROJ_DIR$\..\src\app\user</state>
           <state>$PROJ_DIR$\..\src\drivers</state>
@@ -2951,6 +2952,9 @@
       <data/>
     </settings>
   </configuration>
+  <group>
+    <name>algo</name>
+  </group>
   <group>
     <name>app</name>
     <group>
