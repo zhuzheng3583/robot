@@ -3145,10 +3145,10 @@
     <group>
       <name>user</name>
       <file>
-        <name>$PROJ_DIR$\..\src\app\user\ffconf.h</name>
+        <name>$PROJ_DIR$\..\src\app\user\demo_main.c</name>
       </file>
       <file>
-        <name>$PROJ_DIR$\..\src\app\user\main.c</name>
+        <name>$PROJ_DIR$\..\src\app\user\ffconf.h</name>
       </file>
       <file>
         <name>$PROJ_DIR$\..\src\app\user\main.h</name>
@@ -3184,6 +3184,15 @@
         <name>$PROJ_DIR$\..\src\app\user\usbd_desc.h</name>
       </file>
     </group>
+    <file>
+      <name>$PROJ_DIR$\..\src\app\main.cpp</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\app\rbt_system.cpp</name>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\src\app\rbt_system.h</name>
+    </file>
   </group>
   <group>
     <name>platform</name>
@@ -3743,6 +3752,15 @@
       </group>
     </group>
   </group>
+  <file>
+    <name>$PROJ_DIR$\..\src\robot_misc.cpp</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\..\src\robot_misc.h</name>
+  </file>
+  <file>
+    <name>$PROJ_DIR$\..\src\robot_type.h</name>
+  </file>
 </project>
 
 
