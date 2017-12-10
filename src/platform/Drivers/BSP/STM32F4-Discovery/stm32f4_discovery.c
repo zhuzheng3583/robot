@@ -37,7 +37,7 @@
   */
 /* Includes ------------------------------------------------------------------*/
 #include "stm32f4_discovery.h"
-
+#include "stm32f4_discovery_accelerometer.h"
 /** @defgroup BSP BSP
   * @{
   */ 

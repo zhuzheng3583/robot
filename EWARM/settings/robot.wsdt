@@ -10,7 +10,7 @@
     <Static>
       <Workspace>
         <ColumnWidths>
-          <Column0>124</Column0>
+          <Column0>317</Column0>
           <Column1>27</Column1>
           <Column2>27</Column2>
           <Column3>27</Column3>
@@ -25,7 +25,7 @@
       <TerminalIO/>
     </Static>
     <Windows>
-      <Wnd1>
+      <Wnd3>
         <Tabs>
           <Tab>
             <Identity>TabID-6899-31516</Identity>
@@ -34,13 +34,19 @@
             <Session>
               <NodeDict>
                 <ExpandedNode>robot</ExpandedNode>
+                <ExpandedNode>robot/app</ExpandedNode>
+                <ExpandedNode>robot/platform</ExpandedNode>
+                <ExpandedNode>robot/platform/Drivers</ExpandedNode>
+                <ExpandedNode>robot/platform/Drivers/BSP</ExpandedNode>
+                <ExpandedNode>robot/platform/Drivers/CMSIS</ExpandedNode>
+                <ExpandedNode>robot/platform/Drivers/Components</ExpandedNode>
               </NodeDict>
             </Session>
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd1>
-      <Wnd2>
+      </Wnd3>
+      <Wnd4>
         <Tabs>
           <Tab>
             <Identity>TabID-16602-31538</Identity>
@@ -50,7 +56,7 @@
           </Tab>
         </Tabs>
         <SelectedTab>0</SelectedTab>
-      </Wnd2>
+      </Wnd4>
     </Windows>
     <Editor>
       <Pane>
@@ -63,10 +69,46 @@
           <SelEnd>0</SelEnd>
           <XPos2>0</XPos2>
           <YPos2>92</YPos2>
-          <SelStart2>4040</SelStart2>
-          <SelEnd2>4040</SelEnd2>
+          <SelStart2>4101</SelStart2>
+          <SelEnd2>4101</SelEnd2>
         </Tab>
-        <ActiveTab>0</ActiveTab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\src\app\user\usbd_conf.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>98</YPos2>
+          <SelStart2>0</SelStart2>
+          <SelEnd2>0</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\src\platform\Drivers\BSP\Components\lis3dsh\lis3dsh.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>149</YPos2>
+          <SelStart2>4226</SelStart2>
+          <SelEnd2>4242</SelEnd2>
+        </Tab>
+        <Tab>
+          <Factory>TextEditor</Factory>
+          <Filename>$WS_DIR$\..\src\platform\Drivers\BSP\STM32F4-Discovery\stm32f4_discovery.c</Filename>
+          <XPos>0</XPos>
+          <YPos>0</YPos>
+          <SelStart>0</SelStart>
+          <SelEnd>0</SelEnd>
+          <XPos2>0</XPos2>
+          <YPos2>582</YPos2>
+          <SelStart2>0</SelStart2>
+          <SelEnd2>0</SelEnd2>
+        </Tab>
+        <ActiveTab>3</ActiveTab>
       </Pane>
       <ActivePane>0</ActivePane>
       <Sizes>
@@ -86,29 +128,26 @@
             </Toolbar-002A6288>
           </Sizes>
         </Row0>
-        <Row1>
-          <Sizes/>
-        </Row1>
       </Top>
       <Left>
         <Row0>
           <Sizes>
-            <Wnd1>
+            <Wnd3>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
                 <Bottom>475</Bottom>
-                <Right>198</Right>
+                <Right>391</Right>
                 <x>-2</x>
                 <y>-2</y>
                 <xscreen>200</xscreen>
                 <yscreen>200</yscreen>
                 <sizeHorzCX>156250</sizeHorzCX>
                 <sizeHorzCY>278552</sizeHorzCY>
-                <sizeVertCX>156250</sizeVertCX>
+                <sizeVertCX>307031</sizeVertCX>
                 <sizeVertCY>664345</sizeVertCY>
               </Rect>
-            </Wnd1>
+            </Wnd3>
           </Sizes>
         </Row0>
       </Left>
@@ -120,7 +159,7 @@
       <Bottom>
         <Row0>
           <Sizes>
-            <Wnd2>
+            <Wnd4>
               <Rect>
                 <Top>-2</Top>
                 <Left>-2</Left>
@@ -135,7 +174,7 @@
                 <sizeVertCX>156250</sizeVertCX>
                 <sizeVertCY>278552</sizeVertCY>
               </Rect>
-            </Wnd2>
+            </Wnd4>
           </Sizes>
         </Row0>
       </Bottom>
