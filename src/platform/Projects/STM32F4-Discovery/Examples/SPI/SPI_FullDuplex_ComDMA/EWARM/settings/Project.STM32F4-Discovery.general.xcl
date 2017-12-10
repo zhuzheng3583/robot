@@ -1,0 +1,15 @@
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armproc.dll" 
+
+"C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armstlink2.dll" 
+
+"E:\code\LeaderUAV\STM32Cube_FW_F4_V1.11.0\Projects\STM32F4-Discovery\Examples\SPI\SPI_FullDuplex_ComDMA\EWARM\STM32F4-Discovery\Exe\Project.out" 
+
+--plugin "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\bin\armbat.dll" 
+
+--device_macro "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader "C:\Program Files\IAR Systems\Embedded Workbench 7.3\arm\config\flashloader\ST\FlashSTM32F4xxx.board" 
+
+
+
+
